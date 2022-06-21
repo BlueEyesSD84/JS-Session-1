@@ -1,4 +1,4 @@
-console.log("Hello World"); //everything in JS is sequentional
+/*console.log("Hello World"); //everything in JS is sequentional
 //declaration of the variable
 var userName;
 
@@ -37,7 +37,7 @@ console.log(userEmail);
  */
 
 
- var name='Jimmy';
+ /*var name='Jimmy';
  var email='jimmy.a.smith@gmail.com';
  var pass='aksdjfksd';
  let age=57;
@@ -47,4 +47,47 @@ console.log(userEmail);
  document.write(`
  My Name is ${name} and my email address is ${email} and my annual salary is $${salary*12}.
  
+ `)*/
+
+ /*AMAZON   */
+
+ var firstName='Jimmy';
+ var lastName='Smith';
+ var yourAddress='Chula Vista, Ca.'
+ var yourCart='Empty'
+  var yourOrders='TV, Stereo, Laptop'
+ var customerService='Click Here'
+ var yourLists='Widges, More Widgets'
+ var amazonDay='New Car'
+ let yourTransactions=500
+ var manageContent='Books, Audio Books, Apps, Video, Prime Reading'
+ var twitchSettings='Link your Twitch Account'
+ var audibleSettings='Membership, Audible Payment Method, Payments and Purchase History'
+ var comixologySettings='Your Books, ios, Android, Fire OS'
+ var manageDigital='Manage Game Content'
+ var yourEssential='Add, Sort,  Order'
+ var yourSubscriptions='Amazon Prime, Amazon Photos'
+ var yourMessages='Thank you for being a Amazon Customer'
+ var archivedOrders='Click here to see your past 10 orders'
+ var yourEssentials='You do not have Essentials set up yet'
+ var yourMusic='your Music Settings'
+ var yourPoints='shop with your award points'
+
+ document.write(`
+ <p> Hello ${firstName} ${lastName}!  We have your current address as ${yourAddress}.</p>
+ <p> Your cart is Sad as it is <strong>${yourCart}</strong>, make it happy by shopping here!</p>
+ <p> This is a list of your past orders ${yourOrders}. </p>
+ <p>If you would like to reach <u>Customer Service</u>, please ${customerService}.</p>
+ <p> We see that you have this list of items ${yourLists}, would you like to add them to your cart?</p>
+ <p> This is our Deal of the Day! ${amazonDay}.</p>
+ <p> You are an ALL STAR! you have ordered over ${yourTransactions} items!!! Great Job!! We love you!!!</p>
+ <p> If you want to manage your ${audibleSettings} click here.</p>
+<p> This is a list o fyour Comixology Devices ${comixologySettings}.</p>
+<p> Would you like to see your ${manageDigital} content?</p>
+<p> If you need to ${yourEssentials} would you like to ${yourEssential}?</p>
+<p> Here is a list of your subscriptions ${yourSubscriptions}.</p>
+<p> We would like to ${yourMessages}.</p>
+<p> If you would like to see your orders ${archivedOrders}.</p>
+<p> You have not setup your Amazon music profile yet, please click here to set  ${yourMusic}.</p>
+<p> We have talled your total award points,  would you like to ${yourPoints}?</p>
  `)
